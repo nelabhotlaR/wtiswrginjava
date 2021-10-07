@@ -11,7 +11,7 @@ For all integers between 1 and 99 (include both):
 """
 */
 
-class challenge_07 {
+class challenge_08 {
     static void fizzbuzz(int max_num) {
         /* This Method implements fizbuzz */
         String three_mul = "fizz";
