@@ -1,3 +1,4 @@
+
 /*
 """
 We will use this script to teach Java to absolute beginners
@@ -10,7 +11,7 @@ For all integers between 1 and 99 (include both):
 """
 */
 
-class challenge_01 {
+class challenge_03 {
     static void fizzbuzz(int max_num) {
         /* This Method implements fizbuzz */
         String three_mul = "fizz";
