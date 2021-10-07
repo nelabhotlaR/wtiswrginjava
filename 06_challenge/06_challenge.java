@@ -1,3 +1,4 @@
+
 /*
 """
 We will use this script to teach Java to absolute beginners
@@ -10,7 +11,7 @@ For all integers between 1 and 99 (include both):
 """
 */
 
-class challenge_01 {
+class challenge_06 {
     static void fizzbuzz(int max_num) {
         /* This Method implements fizbuzz */
         String three_mul = "fizz";
@@ -18,22 +19,21 @@ class challenge_01 {
         int num1 =3; 
         int num2=5;
 
-        for(int i=1; i<=max_num; i++)
+        for(int i=1; i<max_num; i++)
             {
+                String s = String.valueOf(i);
                 if (i%num1==0 && i%num2==0){
-                    System.out.println(three_mul + five_mul);
+                    System.out.println(s + "\t" + three_mul + five_mul);
                 } else if (i%num1==0) {
-                    System.out.println(three_mul);
+                    System.out.println(s + "\t" + three_mul);
                 } else if (i%num2==0) {
-                    System.out.println(five_mul);
+                    System.out.println(s + "\t" + five_mul);
                 } else
                     System.out.println(i); /* Not multiples of 3 or 5 */
             }
     }
     /* START of the Java Program */
-    public static void main(String[] args) {
-        fizzbuzz();
-
+    public static void main(String[] args) {fizzbuzz(99);
     }
 }
 
