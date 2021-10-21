@@ -1,4 +1,4 @@
-import java.util.*;
+/*import java.util.*; */
 
 /*
 """
@@ -24,7 +24,7 @@ class challenge_04 {
             {
                 if (i%num1==0 && i%num2==0){
                     System.out.println(three_mul + five_mul);
-                } else if (i%num1==0) {
+                } else if (i%num1==0) {  
                     System.out.println(three_mul);
                 } else if (i%num2==0) {
                     System.out.println(five_mul);
@@ -33,7 +33,8 @@ class challenge_04 {
             }
     }
     /* START of the Java Program */
-    public static void main(String[] args) {fizzbuzz(20);
+    public static  main(String[] args) {
+        fizzbuzz(20);
     }
 }
 
