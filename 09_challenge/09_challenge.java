@@ -22,6 +22,7 @@ class challenge_09 {
         for(int i=1; i<max_num; i++)
             {
                 String s = String.valueOf(i);
+                num1=0;
                 if (i%num1==0 && i%num2==0){
                     System.out.println(s + "\t" + three_mul + five_mul);
                 } else if (i%num1==0) {
@@ -34,7 +35,7 @@ class challenge_09 {
     }
     /* START of the Java Program */
     public static void main(String[] args) {
-        
+        fizzbuzz(99);
     }
 }
 
