@@ -8,6 +8,7 @@ For all integers between 1 and 99 (include both):
     # print fizz for multiples of 3
     # print buzz for multiples of 5 
     # print fizzbuzz for multiples of 3 and 5"
+    # missing fizz and buzz for 3 and 5
 """
 */
 
@@ -34,7 +35,7 @@ class challenge_08 {
     }
     /* START of the Java Program */
     public static void main(String[] args) {
-        fizzbuzz(100);
+        fizzbuzz(99);
     }
 }
 
