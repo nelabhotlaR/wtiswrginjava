@@ -30,7 +30,7 @@ class challenge_01 {
                     System.out.println(i); /* Not multiples of 3 or 5 */
             }
     }
-    /* START of the Java Program */
+    /* --- START of the Java Program */
     public static void main(String[] args) {
         fizzbuzz(100);
 
