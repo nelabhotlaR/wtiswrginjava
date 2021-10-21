@@ -19,7 +19,7 @@ class challenge_07 {
         int num1 =3; 
         int num2=5;
 
-        for(int i=1; i<max_num; i++)
+        for(int i=1; i<=max_num; i++)
             {
                 String s = String.valueOf(i);
                 if (i%num1==0 && i%num2==0){
@@ -34,7 +34,7 @@ class challenge_07 {
     }
     /* START of the Java Program */
     public static void main(String[] args) {
-        new challenge_07().fizzbuzz(100);
+        new challenge_07().fizzbuzz(99);
     }
 }
 
